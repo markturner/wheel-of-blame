@@ -15,10 +15,6 @@ class WheelOfBlame
                       'is a poor excuse for a human being']
 
   def spin
-    puts NAMES_OF_BLAME.sample + " " + PHRASES_OF_BLAME.sample
+    return NAMES_OF_BLAME.sample + " " + PHRASES_OF_BLAME.sample
   end
 end
-
-wheel = WheelOfBlame.new
-
-wheel.spin
