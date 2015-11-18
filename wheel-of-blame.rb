@@ -3,7 +3,8 @@ class WheelOfBlame
                     'Dai',
                     'Ian',
                     'Keeran',
-                    'Rich']
+                    'Rich',
+                    'Dave']
 
   PHRASES_OF_BLAME = ['has messed up again',
                       'is the one to blame this time',
