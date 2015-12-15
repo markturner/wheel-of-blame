@@ -4,7 +4,8 @@ class WheelOfBlame
                     'Ian',
                     'Keeran',
                     'Rich',
-                    'Dave']
+                    'Dave',
+                    'Osman']
 
   PHRASES_OF_BLAME = ['has messed up again',
                       'is the one to blame this time',
@@ -13,7 +14,8 @@ class WheelOfBlame
                       'is just a really terrible programmer',
                       'wants you all to know how sorry he is',
                       'has really dropped the ball this time',
-                      'is a poor excuse for a human being']
+                      'is a poor excuse for a human being',
+                      'did this on purpose']
 
   def spin
     return NAMES_OF_BLAME.sample + " " + PHRASES_OF_BLAME.sample
