@@ -20,7 +20,7 @@ class WheelOfBlame
                       'is a poor excuse for a human being',
                       'did this on purpose']
 
-  def spin
-    return NAMES_OF_BLAME.sample + " " + PHRASES_OF_BLAME.sample
+  def spin(name = nil)
+    return (name || NAMES_OF_BLAME.sample) + " " + PHRASES_OF_BLAME.sample
   end
 end
