@@ -5,13 +5,16 @@ class WheelOfBlame
                     'Keeran',
                     'Rich',
                     'Dave',
-                    'Osman']
+                    'Osman',
+                    'Kevin',
+                    'Adam',
+                    'Jon']
 
   PHRASES_OF_BLAME = ['has messed up again',
                       'is the one to blame this time',
                       'has proven his inadequacy once more',
                       'has a lot to answer for',
-                      'is just a really terrible programmer',
+                      'is just a really terrible person',
                       'wants you all to know how sorry he is',
                       'has really dropped the ball this time',
                       'is a poor excuse for a human being',
