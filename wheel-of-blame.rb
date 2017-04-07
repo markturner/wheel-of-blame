@@ -20,7 +20,7 @@ class WheelOfBlame
                       'has really dropped the ball this time',
                       'is a poor excuse for a human being',
                       'did this on purpose',
-                      'did this just to ruin your day'
+                      'did this just to ruin your day']
 
   def spin(name = nil)
     return (name || NAMES_OF_BLAME.sample) + " " + PHRASES_OF_BLAME.sample
